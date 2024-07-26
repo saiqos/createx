@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expanded filters</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/filters.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="topbar">
+      <div class="topbar__flex container">
+        <p class="topbar__number">
+          Available 24/7 at <span>(405) 555-0128</span>
+        </p>
+        <ul class="topbar__list">
+          <li><a href="#">Delivery & returns</a></li>
+          <li><a href="#">Track order</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="lang__login">
+          <div class="lang">
+            <img src="img/flag-usa.svg" alt="" />
+            <select class="topbar__select">
+              <option value="">Eng / $</option>
+            </select>
+          </div>
+          <div class="login">
+            <img src="img/Person.svg" alt="" />
+            <p>Log in / Register</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar container">
+      <a href="#"><img src="img/logo.svg" alt="" /></a>
+      <ul class="navbar__list">
+        <li><a href="#" id="megamenu__open-link">Women</a></li>
+        <li><a href="#" id="megamenu__open-link-2">Men</a></li>
+        <li><a href="#" id="megamenu__open-link-3">Girls</a></li>
+        <li><a href="#" id="megamenu__open-link-4">Boys</a></li>
+        <li><a href="#" id="megamenu__open-link-5">Sale</a></li>
+      </ul>
+      <div class="navbar__search">
+        <input type="text" placeholder="Search for products..." class="search__input" />
+        <button class="search__button">
+          <img class="search__img" src="img/search.svg" alt="" />
+        </button>
+      </div>
+      <div class="navbar__liked-products">
+        <div class="liked">
+          <img src="img/heart.svg" alt="" />
+          <p>2</p>
+        </div>
+        <div class="divider"></div>
+        <div class="carted">
+          <img src="img/cart.svg" alt="" />
+          <a href="#" class="carted__a">4</a>
+        </div>
+      </div>
+
+      <div class="megamenu hidden">
+        <div class="container">
+          <div class="megamenu__flex">
+            <div class="megamenu__lists">
+              <ul class="megamenu__list">
+                <li><a href="#">New collection</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Plus Size</a></li>
+                <li><a href="#">Sale up to 70%</a></li>
+              </ul>
+              <ul class="megamenu__list">
+                <h3 class="h3-options">CLOTHES</h3>
+                <li><a href="#">Coats</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Cardigans & sweaters</a></li>
+                <li><a href="#">Sweatshirts & hoodies</a></li>
+                <li><a href="#">T-shirts & tops</a></li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Jeans</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Skirts</a></li>
+                <li><a href="#">Sportswear</a></li>
+                <li><a href="#">Swimwear</a></li>
+              </ul>
+              <ul class="megamenu__list">
+                <h3 class="h3-options">SHOES</h3>
+                <li><a href="#">Boots</a></li>
+                <li><a href="#">Flat shoes</a></li>
+                <li><a href="#">Heels</a></li>
+                <li><a href="#">Sandals</a></li>
+                <li><a href="#">Mules</a></li>
+                <li><a href="#">Sliders</a></li>
+                <li><a href="#">Slippers</a></li>
+                <li><a href="#">Sneakers</a></li>
+                <li><a href="#">Leather</a></li>
+              </ul>
+              <ul class="megamenu__list">
+                <h3 class="h3-options">ACCESSORIES</h3>
+                <li><a href="#">Bags & bagpacks</a></li>
+                <li><a href="#">Hats & scarves</a></li>
+                <li><a href="#">Hair accessories</a></li>
+                <li><a href="#">Belts</a></li>
+                <li><a href="#">Jewellery</a></li>
+                <li><a href="#">Watches</a></li>
+                <li><a href="#">Sunglasses</a></li>
+                <li><a href="#">Purses</a></li>
+                <li><a href="#">Gloves</a></li>
+                <li><a href="#">Socks & tights</a></li>
+              </ul>
+            </div>
+            <div class="megamenu__boy">
+              <img src="img/megamenu__boy.jpg" alt="" />
+              <p>Back to school. Sale up to 50%</p>
+              <a href="#" class="btns__first">See offers →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="sales">
+      <div class="sales__item">
+        <span>Up to 70% Off.</span>
+        <a href="filters.html">Shop our latest sale styles</a>
+      </div>
+      <div class="sales__item">
+        <span>Up to 50% Off.</span>
+        <a href="filters.html">Shop our latest sale styles</a>
+      </div>
+      <div class="sales__item">
+        <span>Up to 30% Off.</span>
+        <a href="filters.html">Shop our latest sale </a>
+      </div>
+      <div class="sales__item">
+        <span>Up to 20% Off.</span>
+        <a href="filters.html">Shop sale styles</a>
+      </div>
+      <div class="sales__item">
+        <span>Up to 70% Off.</span>
+        <a href="filters.html">Shop our latest sale styles</a>
+      </div>
+    </div>
+  </header>
+  <div class="breadcrumb">
+    <div class="breadcrumb__flex container">
+      <img src="img/Home.svg" alt="" />
+      <img src="img/crumbread-right.svg" alt="" />
+      <p>Women</p>
+      <img src="img/crumbread-right.svg" alt="" />
+      <p>Clothes</p>
+    </div>
+  </div>
+  <section class="filters container">
+    <a href="#" class="btn__regular">
+      <img src="img/filter-1.svg" alt="" />
+      <p>Hide filters</p>
+    </a>
+    <div class="filters__flex">
+      <div class="card">
+        <div class="card-header">
+          <h3>Clothes</h3>
+          <span class="fa fa-minus"></span>
+        </div>
+        <div class="card-body active">
+          <form action="#" class="input__form">
+            <input type="text" placeholder="Search the clothes type">
+            <button type="submit"><img src="img/search.svg" alt=""></button>
+          </form>
+          <form action="#" class="checkbox__form">
+            <label for="filters__checkbox" class="checkbox__form_label">
+              <input type="checkbox" id="filters__checkbox">
+              <p class="filters__checkbox_name">Coats <span>(16)</span></p>
+            </label>
+            <label for="filters__checkbox" class="checkbox__form_label">
+              <input type="checkbox" id="filters__checkbox">
+              <p class="filters__checkbox_name">Coats <span>(16)</span></p>
+            </label>
+            <label for="filters__checkbox" class="checkbox__form_label">
+              <input type="checkbox" id="filters__checkbox">
+              <p class="filters__checkbox_name">Coats <span>(16)</span></p>
+            </label>
+            <label for="filters__checkbox" class="checkbox__form_label">
+              <input type="checkbox" id="filters__checkbox">
+              <p class="filters__checkbox_name">Coats <span>(16)</span></p>
+            </label>
+            <label for="filters__checkbox" class="checkbox__form_label">
+              <input type="checkbox" id="filters__checkbox">
+              <p class="filters__checkbox_name">Coats <span>(16)</span></p>
+            </label>
+          </form>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h3>Size</h3>
+          <span class="fa fa-plus"></span>
+        </div>
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quasi?
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h3>Color</h3>
+          <span class="fa fa-plus"></span>
+        </div>
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quasi?
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h3>Material</h3>
+          <span class="fa fa-plus"></span>
+        </div>
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quasi?
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h3>Brand</h3>
+          <span class="fa fa-plus"></span>
+        </div>
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quasi?
+        </div>
+      </div>
+      <div class="card last">
+        <div class="card-header">
+          <h3>Price</h3>
+          <span class="fa fa-plus"></span>
+        </div>
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quasi?
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="subscribe__flex container">
+      <div class="subscribe__text">
+        <h2 class="h2-options">Subscribe for updates</h2>
+        <p>Subscribe for exclusive early sale access and new arrivals.</p>
+        <ul class="subscribe__list">
+          <li>Women</li>
+          <li>Men</li>
+          <li>Girls</li>
+          <li>Boys</li>
+        </ul>
+        <div class="subscribe__form-wrapper">
+          <label for="email" class="subscribe__label">
+            Email
+            <div class="form subscribe__form">
+              <input type="text" placeholder="Your working email" />
+              <button type="submit">Subscribe</button>
+            </div>
+          </label>
+          <div class="agree__form-group">
+            <label for="agree" class="agree__label">
+              <input type="checkbox" name="agreement" id="agree" class="agree__real-checkbox" />
+              <span class="agree__custom-checkbox"></span>
+              I agree to receive communications from Createx Store.
+            </label>
+          </div>
+        </div>
+      </div>
+      <img src="img/subscribe-img.png" alt="" class="subscribe__img" />
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__flex container">
+      <ul class="footer__list">
+        <h3 class="footer__list-header">Help</h3>
+        <li><span>Delivery & returns</span></li>
+        <li><span>FAQ</span></li>
+        <li><span>Track order</span></li>
+        <li><span>Contacts</span></li>
+        <li><span>Blog</span></li>
+      </ul>
+      <ul class="footer__list">
+        <h3 class="footer__list-header">Shop</h3>
+        <li><span>New arrivals</span></li>
+        <li><span>FAQ</span></li>
+        <li><span>Trending now</span></li>
+        <li><span>Sales</span></li>
+        <li><span>Brands</span></li>
+      </ul>
+      <ul class="footer__list">
+        <h3 class="footer__list-header">Get in touch</h3>
+        <li>Call: <span>(405) 555-0128</span></li>
+        <li>Email: <span>hello@createx.com</span></li>
+        <ul class="footer__media">
+          <li>
+            <a href="#"></a>
+          </li>
+          <li class="inst">
+            <a href="#"></a>
+          </li>
+          <li class="twitter">
+            <a href="#"></a>
+          </li>
+          <li class="youtube">
+            <a href="#"></a>
+          </li>
+          <li class="pinterest">
+            <a href="#"></a>
+          </li>
+        </ul>
+      </ul>
+      <ul class="footer__list">
+        <h3 class="footer__list-header">Download our app</h3>
+        <ul class="download">
+          <a href="#"><img src="img/app-store.png" alt="" /></a>
+          <a href="#"><img src="img/google-play.png" alt="" /></a>
+        </ul>
+      </ul>
+    </div>
+    <div class="footer__divider"></div>
+
+    <div class="footer__bottom container">
+      <p>
+        <span>© All rights reserved. Made with</span>
+        <span><img src="img/outline.svg" alt="" /></span>
+        <span>by Createx Studio, converted in code by chachaRazDvaTri</span>
+      </p>
+      <a href="index.html">Go to top</a>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- Slider -->
+  <script src="js/slick.min.js"></script>
+  <!-- Script File -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>
