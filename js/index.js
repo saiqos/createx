@@ -1,13 +1,13 @@
 $(document).ready(function(){
     $('.sales').slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000
     });
 });
 
 $(document).ready(function(){
     $('.collection').slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         dots: true
     });
@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.arrivals__slider').slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         dots: true,
         slidesToShow: 6,
